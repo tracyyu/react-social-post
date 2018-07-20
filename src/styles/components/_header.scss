@@ -1,0 +1,38 @@
+.header {
+    border-bottom: 1px solid $light-blue;
+    display: table;
+    font-size: 12px;
+    margin: 0 auto;
+    width: 100%;
+
+    .left {
+        float: left;
+        height: 100%;
+        padding-left: 10px;
+        text-align: left;
+        width: 50%;
+        i, p {
+            display: inline-block;
+        }
+
+        i {
+            padding-right: 2.5px;
+        }
+
+        p{
+            padding-left: 2.5px;
+        }
+    }
+    .right {
+        float: right;
+        height: 100%;
+        padding-right: 10px;
+        text-align: right;
+        vertical-align: middle;
+        width: 50%;
+    }
+}
+
+.timestamp{
+    color: red;
+}

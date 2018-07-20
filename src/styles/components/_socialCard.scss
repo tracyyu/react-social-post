@@ -1,0 +1,25 @@
+.socialCard {
+    position: relative;
+    background-color: $light-blue;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .socialCard-header{
+    display: inline-block;
+    .user {
+      float: left;
+    }
+  }
+  
+  .socialCard-title {
+    background-color: white;
+    border-bottom: 1px solid $light-grey;
+    align-items: center; 
+    height: 75px;
+    line-height: 75px;
+    margin-top: 0;
+    width: 100%;
+  }
